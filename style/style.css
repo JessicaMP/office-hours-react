@@ -1,0 +1,15 @@
+.header {
+  color: red;
+}
+
+navbar {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 2rem;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+a {
+   padding: 1rem;
+}
