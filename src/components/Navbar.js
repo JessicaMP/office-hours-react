@@ -1,7 +1,7 @@
 import React from 'react';
 import NavbarItem from './Navbar-item';
 import PropTypes from 'prop-types';
-
+//hola
 const ingles = ['welcome', 'us', 'yours', 'they'];
 
 const Navbar = ({arrayString}) => {
