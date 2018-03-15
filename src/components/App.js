@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from './Header';
+import Section from './Section';
+
 const App = () => (
-    <div>
-        <div>Hola desde react</div>
+    <div>    
         <Header />
+        <Section />
     </div>
 )
 

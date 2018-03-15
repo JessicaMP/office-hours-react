@@ -2,14 +2,45 @@
   color: red;
 }
 
+h1 {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+   font-weight: bold !important;
+}
+
 navbar {
-  background-color: antiquewhite;
-  width: 100%;
-  height: 2rem;
+  background-color: rgb(206, 205, 205);
+  width: 80%;
   border: 2px solid black;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 a {
-   padding: 1rem;
+  width: 25%;
+  display: inline-block;
+   color: blue !important;
+   border-right: 2px solid black;
+   padding: 0.5rem;
+   box-sizing: border-box;
+   text-align: center;
+   font-weight: bold;
+}
+
+.ul {
+  width: 30%;
+  margin: 1rem;
+}
+
+li {
+  list-style: none;
+  border: 2px solid black;
+  text-align: center;
+  padding: 0.5rem;
+  display: block;
+}
+
+.ul, .main {
+  float: left;
 }
